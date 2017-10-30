@@ -16,5 +16,5 @@ git clone https://github.com/dj-dust/ddcoin-blockchain
 cd ddcoin-blockchain
 npm install crypto-js
 ```
-# Credit
+## Credit
 https://github.com/SavjeeTutorials/SavjeeCoin
