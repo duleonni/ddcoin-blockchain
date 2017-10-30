@@ -15,5 +15,4 @@ Clone the repository and install the dependencies
 git clone https://github.com/dj-dust/ddcoin-blockchain
 cd ddcoin-blockchain
 npm install crypto-js
-npm main.js
 ```
