@@ -78,6 +78,10 @@ class Blockchain{
 }
 
 
+// Print validation of blockchain
+
+console.log('Verifying blockchain... ' + DDCoin.isChainValid());
+
 // Starting blockchain
 
 let DDCoin = new Blockchain();
@@ -90,11 +94,6 @@ console.log('Mining block 3...');
 DDCoin.addBlock(new Block(3, "28/10/2017 - 03:05", { amount: 26}));
 console.log('Mining block 4...');
 DDCoin.addBlock(new Block(4, "28/10/2017 - 14:45", { amount: 26}));
-
-
-// Print validation of blockchain
-
-//console.log('Verifying blockchain... ' + DDCoin.isChainValid());
 
 
 // Print blockchain
